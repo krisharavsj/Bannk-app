@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank App</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eaf5ff;
+        text-align: center;
+    }
+
+    .bank-container {
+        background-color: white;
+        width: 350px;
+        margin: 80px auto;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 15px gray;
+    }
+
+    h1 {
+        color: #0879c9;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        color: gray;
+        text-decoration: underline;
+    }
+
+    .balance-box {
+        background-color: #d9efff;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+    .input-box {
+        margin: 20px 0;
+    }
+
+    input {
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    button {
+        background-color: #0879c9;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        margin: 5px;
+    }
+
+    .buttons {
+        margin-top: 15px;
+    }
+
+</style>
+<body>
+
+    <div class="bank-container">
+
+        <h1>My Bank</h1>
+
+        <div class="balance-box">
+            <h2>Available Balance</h2>
+            <h1>₹ 10,000</h1>
+        </div>
+
+        <div class="input-box">
+            <label>Enter Amount</label>
+            <input type="number" placeholder="Enter amount">
+        </div>
+
+        <div class="buttons">
+            <button>Add Money</button>
+            <button>Withdraw</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
